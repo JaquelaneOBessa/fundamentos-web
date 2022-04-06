@@ -48,7 +48,7 @@ function validaEmail(){
 
 function validaAssunto(){
     let txtAssunto = document.querySelector('#txtAssunto')
-    if (txtAassunto.value.length >= 10){
+    if (   txtAassunto.value.length >= 10){
         txtAssunto.innerHTML = 'Ultrapassou o limite de 200 caracteres.'
         txtAssunto.style.color = 'red'
         assuntoOk = false
